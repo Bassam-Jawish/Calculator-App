@@ -19,12 +19,15 @@ class LogicCubit extends Cubit<LogicState> {
     userInputFC = userInputFC.replaceAll("π", "3.1415926536");
     userInputFC = userInputFC.replaceAll("√", "sqrt");
 
-
-
     Parser p = Parser();
+    print('$userInputFC');
     Expression exp = p.parse(userInputFC);
+    print('$exp');
     ContextModel ctx = ContextModel();
     double eval = exp.evaluate(EvaluationType.REAL, ctx);
+    print('$eval');
+
+
     state.userOutput = eval.toString();
     emit(LogicState(userInput: state.userInput,
         userOutput: state.userOutput,

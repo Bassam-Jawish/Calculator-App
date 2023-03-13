@@ -1,7 +1,7 @@
 import 'package:calculator/UI/history.dart';
 import 'package:calculator/UI/mainscreen.dart';
+import 'package:calculator/blocs/history_cubit/history_cubit.dart';
 import 'package:calculator/blocs/logic/logic_cubit.dart';
-import 'package:calculator/blocs/switch_bloc/switch_bloc.dart';
 import 'package:calculator/blocs/switch_cubit/switch_cubit.dart';
 import 'package:calculator/model/historyitem.dart';
 import 'package:flutter/material.dart';
@@ -26,7 +26,6 @@ void main() async {
     ),
   );
 
-
   runApp(MyApp());
 
 }
@@ -42,6 +41,7 @@ class MyApp extends StatelessWidget {
       providers: [
         BlocProvider(create: (context) => LogicCubit()),
         BlocProvider(create: (context) => SwitcheCubit()),
+        BlocProvider(create: (context) => HistoryCubit()),
       ],
       child: BlocBuilder<SwitcheCubit, SwitcheState>(
         builder: (context, state) {

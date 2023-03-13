@@ -1,4 +1,5 @@
 import 'package:calculator/Theme/theme.dart';
+import 'package:calculator/blocs/history_cubit/history_cubit.dart';
 import 'package:calculator/blocs/switch_cubit/switch_cubit.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -59,6 +60,8 @@ class MainScreen extends StatelessWidget {
     ".",
     "=",
     ];
+
+
 
   @override
   Widget build(BuildContext context) {
@@ -309,6 +312,9 @@ class MainScreen extends StatelessWidget {
                                               context
                                                   .read<LogicCubit>()
                                                   .equalPressed();
+                                              context
+                                                  .read<HistoryCubit>()
+                                                  .addToHistory();
                                             }
                                           },
                                           child: Center(
@@ -496,34 +502,34 @@ class MainScreen extends StatelessWidget {
                               ],
                             ),
                             Padding(
-                              padding: const EdgeInsets.only(
-                                  right: 20, top: 20, left: 20),
+                              padding:  EdgeInsets.only(
+                                  right: 20,top: height/50, left: 20),
                               child: Column(
                                 children: [
                                   Container(
                                     alignment: Alignment.centerRight,
-                                    height: height / 15,
+                                    height: height / 16,
                                     child: Text(
                                       state1.userInput,
                                       style: TextStyle(
                                           color: state2.switchValue
                                               ? Colors.white
                                               : Colors.black,
-                                          fontSize: 22),
+                                          fontSize: 20),
                                     ),
                                   ),
-                                  const SizedBox(
-                                    height: 5,
+                                   SizedBox(
+                                    height: height/60,
                                   ),
                                   Container(
                                     alignment: Alignment.bottomRight,
-                                    height: height / 12,
+                                    height: height / 13,
                                     child: Text(state1.userOutput,
                                         style: TextStyle(
                                             color: state2.switchValue
                                                 ? Colors.white
                                                 : Colors.black,
-                                            fontSize: 32)),
+                                            fontSize: 28)),
                                   ),
                                 ],
                               ),
@@ -531,7 +537,7 @@ class MainScreen extends StatelessWidget {
                           ],
                         ),
                       ),
-                      SizedBox(height: 10,),
+                      SizedBox(height: height/26,),
                       BlocListener<LogicCubit, LogicState>(
   listener: (context, state) {
     if (state.enough == true) {
