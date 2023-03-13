@@ -1,10 +1,10 @@
-# calculator
+# ✔️🔥 Calculator-App
 
-A new Flutter project.
+A cacluator app, created with dart and flutter framework with bloc statemanagement.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Caclu is a starting point for a Flutter application.
 
 A few resources to get you started if this is your first Flutter project:
 
