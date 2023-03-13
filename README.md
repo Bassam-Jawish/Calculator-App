@@ -38,7 +38,7 @@ Star ⭐ the repo to support the project.
 
 <p float="left">
   <img src="screenshots/Screenshot_20230313_034007.jpg" width="220" height = "450"/>
-  <img src="screenshots/Screenshot_20230313_033927.jpg" width="220" height = "450"/> 
+  <img src="screenshots/Screenshot_20230313_033927.jpg" width="500" height = "450"/> 
 </p>
 
 ## Questions?🤔
