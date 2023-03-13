@@ -14,7 +14,7 @@ Star ⭐ the repo to support the project.
 
 - Includeing more advanced features such as scientific calculations.
 
-- Adding numbers up to 52 digits.
+- Adding numbers up to 50 digits.
 
 - Supoort Responsivity.
 
