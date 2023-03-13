@@ -1,16 +1,52 @@
 # ✔️🔥 Calculator-App
 
-A cacluator app, created with dart and flutter framework with bloc statemanagement.
+A calcuator app, created with dart and flutter framework with bloc statemanagement.
 
 ## Getting Started
 
-Caclu is a starting point for a Flutter application.
+Calculator app is designed to be user-friendly and intuitive, allowing users to quickly and easily perform calculations on their mobile device.
 
-A few resources to get you started if this is your first Flutter project:
+Star ⭐ the repo to support the project.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Features
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Performing basic mathematical calculations such as addition, subtraction, multiplication, and division. 
+
+- Includeing more advanced features such as scientific calculations.
+
+- Adding numbers up to 52 digits.
+
+- Supoort Responsivity.
+
+- Theme mode (Light mode - Dark mode).
+
+- Storing all the previous operations and delete them.
+
+## Screenshots
+
+<img src = "assets/depositphotos_311476502-stock-illustration-white-line-calculator-icon-isolated.png" height = "450" >
+
+<p float="left">
+  <img src="screenshots/Screenshot_20230313_033911.jpg" width="220" height = "450"/>
+  <img src="screenshots/Screenshot_20230313_041356.jpg" width="220" height = "450"/> 
+</p>
+
+<p float="left">
+  <img src="screenshots/Screenshot_20230313_034032.jpg" width="220" height = "450"/>
+  <img src="screenshots/Screenshot_20230313_034035.jpg" width="220" height = "450"/> 
+</p>
+
+<p float="left">
+  <img src="screenshots/Screenshot_20230313_034007.jpg" width="220" height = "450"/>
+  <img src="screenshots/Screenshot_20230313_033927.jpg" width="600" height = "350"/> 
+</p>
+
+## Questions?🤔
+
+Hit me on
+
+[![LinkedIn](https://user-images.githubusercontent.com/35039342/55471530-94b34280-5627-11e9-8c0e-6fe86a8406d6.png)](https://www.linkedin.com/in/bassam-jawish/)
+
+## Contributing
+
+Pull requests are welcome.
