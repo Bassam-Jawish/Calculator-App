@@ -12,7 +12,7 @@ Star ⭐ the repo to support the project.
 
 - Performing basic mathematical calculations such as addition, subtraction, multiplication, and division. 
 
-- Includeing more advanced features such as scientific calculations.
+- Including more advanced features such as scientific calculations.
 
 - Adding numbers up to 50 digits.
 
