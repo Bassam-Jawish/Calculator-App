@@ -42,7 +42,7 @@ Star ⭐ the repo to support the project.
 </p>
 
 <p float="left">
-  <img src="screenshots/Screenshot_20230313_033927.jpg" width="700" height = "350"/>
+  <img src="screenshots/Screenshot_20230313_033927.jpg" width="600" height = "320"/>
 </p>
 
 ## Questions?🤔
